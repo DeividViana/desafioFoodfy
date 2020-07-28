@@ -1,0 +1,68 @@
+
+/* ============= MODAL ============= */
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.modal {
+    background-color: white;
+    width: 660px;
+    height: 413px;
+    margin: 10vh auto;
+    border-radius: 16px;
+    position: relative;
+}
+
+.material-icons {
+    position: absolute;
+    top: 90%;
+    right: 50%;
+    cursor: pointer;
+    color: #777777;
+}
+
+/* ============= MODAL ACTIVE ============= */
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.modal-content img {
+    width: 600px;
+    height: 216px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    left: 30px;
+    border-radius: 16px;
+}
+
+.modal-describe {
+
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    bottom: 80px;
+
+}
+
+#card-content-modal {
+    margin: 20px 0 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#card-people-modal{
+    font-size: 18px;
+    color: #777777;
+}

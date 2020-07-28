@@ -25,6 +25,18 @@ header {
 }
 
 
+/* ======= MODAL======= */
+
+header nav a:hover {
+    color: black;
+    font-weight: bold;
+} 
+
+.material-icons:hover{
+    color: black;
+    font-weight: bold;
+    transition: 400ms;
+}
 /* ======= HEADER ======= */
 
 nav {
@@ -127,3 +139,6 @@ footer {
     color: #999999;
     text-align: center
 }
+
+
+
