@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+main,
+.cards,
+header {
+    /*Faz com que os itens fiquem centralizados, não saindo do espaço quando aumentamos ou diminuimos o zoom*/
+    /* max-width: 1349px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ======= HEADER ======= */
+
+nav {
+    margin: 0 300px 0 0;
+    width: 636px;
+}
+
+.links {
+    display: flex;
+}
+
+.links h1 {
+    margin: 36px 80px 0 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.links a {
+    padding: 12px;
+    width: 42px;
+    height: 19px;
+    margin: 38px 30px 36px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#retangular {
+    background: #FBDFDB;
+    display: flex;
+    width: 940px;
+    height: 366px;
+    margin: 0 auto 50px;
+    border-radius: 30px;
+}
+
+.textindex {
+    width: 366px;
+}
+
+.textindex h1 {
+    margin: 117px 0 10px 60px
+}
+
+.text-index-pag p {
+    margin: 0 0 117px 60px;
+    opacity: 0.7;
+    font-size: 18px;
+    color: #000000;
+    line-height: 28px;
+}
+
+.img-chef {
+    display: flex;
+    margin: 66px 100px 0 248px;
+}
+
+
+/* ======== CARDS PAGE INICIAL =====*/
+
+.cards-all {
+    max-width: 940px;
+    margin: 0 auto 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#title-section {
+    font-size: 24px;
+}
+
+.card-image img {
+    width: 100%;
+    border-radius: 15px;
+    margin: 20px auto 0;
+}
+
+.card-content p {
+    margin: 20px 0 5px 0;
+    font-size: 18px;
+}
+
+.card-people p {
+    font-size: 14px;
+    color: #777777;
+}
+
+
+/* ======== Footer =====*/
+
+footer {
+    background: #EEEEEE;
+    margin-top: auto;
+    padding: 23px;
+    display: block;
+}
+
+#footer-msg {
+    font-size: 14px;
+    color: #999999;
+    text-align: center
+}
